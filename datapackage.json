@@ -1,0 +1,46 @@
+{
+  "name": "school-term-dates",
+  "title": "School term dates and holidays (UK councils and Australian states)",
+  "description": "School terms, half terms and holidays for NSW, Victoria and Queensland (2026) and UK councils (2026/27), with source links.",
+  "homepage": "https://apify.com/messnomore/school-holidays-api",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Australian records"
+    },
+    {
+      "name": "OGL-UK-3.0",
+      "path": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "title": "UK records"
+    }
+  ],
+  "resources": [
+    {
+      "name": "school-term-dates-au-2026-json",
+      "path": "data/school-term-dates-au-2026.json",
+      "format": "json",
+      "title": "Australia (NSW, VIC, QLD) school terms and holidays, 2026"
+    },
+    {
+      "name": "school-term-dates-au-2026-csv",
+      "path": "data/school-term-dates-au-2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "title": "Australia (NSW, VIC, QLD) school terms and holidays, 2026"
+    },
+    {
+      "name": "school-term-dates-uk-2026-27-json",
+      "path": "data/school-term-dates-uk-2026-27.json",
+      "format": "json",
+      "title": "UK council school terms, half terms and holidays, 2026/27"
+    },
+    {
+      "name": "school-term-dates-uk-2026-27-csv",
+      "path": "data/school-term-dates-uk-2026-27.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "title": "UK council school terms, half terms and holidays, 2026/27"
+    }
+  ]
+}
